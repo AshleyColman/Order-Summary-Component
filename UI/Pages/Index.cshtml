@@ -1,0 +1,39 @@
+﻿@page
+@model UI.Pages.IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Order Summary Component</title>
+    <meta name="description" content="Order Summary Component" />
+    <meta name="author" content="Ashley Colman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="~/images/favicon-32x32.png" />
+</head>
+<body>
+    <main class="background">
+        <section class="component">
+            <img class="order-image" src="~/images/illustration-hero.svg" alt="Person celebrating while listening to music." />
+            <div class="order-body">
+                <h1 class="order-summary">Order Summary</h1>
+                <p class="order-paragraph paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                <div class="subscription">
+                    <img class="icon" src="~/images/icon-music.svg" alt="music note" />
+                    <div class="vertical-container">
+                        <h2>Annual Plan</h2>
+                        <p class="paragraph">$59.99/year</p>
+                    </div>
+                    <a class="link" href="#" target="_blank" title="Change your subscription">Change</a>
+                </div>
+                <button class="fill-button" type="button" name="proceed">Proceed to Payment</button>
+                <button class="nofill-button" type="button" name="cancel">Cancel Order</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
